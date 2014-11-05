@@ -1,0 +1,58 @@
+/*
+Theme Name:     She Tech Philly Rollback Transition
+Description:    A one stop shop for Philly women in tech 
+Author:         shetechadmin
+Template:       responsive
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../responsive/style.css");
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+
+/*NAVIGATION*/
+
+.menu {
+	background-color: transparent;
+	background-image: none;
+}
+
+.menu a {
+	border-left: none;
+	color: gray;
+	text-shadow: none;
+}
+
+.menu a:hover {
+	background-color: transparent;
+	background-image: none;
+	color: #58205e;
+}
+
+ul.menu > li:hover {
+	background-color: transparent;
+}
+
+a {
+	color: #58205e;
+}
+
+a.blue {
+	background-color: #58205e;
+	background-image: none;
+	border: none;
+	text-shadow: none;
+}
+
+a.blue:hover {
+	background-color: #efefef;
+	background-image: none;
+	border: 1px solid #58205e;
+	color: #58205e;
+}
+
+#featured-content {
+	width: 43%;
+	padding-left: 5%;
+	text-align: center;
+}
