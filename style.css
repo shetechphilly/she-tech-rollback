@@ -33,6 +33,11 @@ ul.menu > li:hover {
 	background-color: transparent;
 }
 
+.menu .current_page_item a, .menu .current-menu-item a {
+	background-color: #58205e;
+	color: #fff;
+}
+
 a {
 	color: #58205e;
 }
@@ -55,4 +60,37 @@ a.blue:hover {
 	width: 43%;
 	padding-left: 5%;
 	text-align: center;
+}
+
+/* styles for the calendar page - google calendar events */
+.gce-change-month,
+.gce-change-month-list {
+	padding: 5px 10px;
+	background: #58205e;
+	color: #fff;
+	font-weight: bold;
+}
+td.gce-day-past {
+	background: #eee;
+	color: #fff;
+}
+.gce-page-grid .gce-calendar .gce-today {
+	background-color: #58205e;
+	color: #fff;
+}
+.gce-page-grid .gce-calendar .gce-has-events {
+	color: #58205e;
+	font-weight: bold;
+}
+.gce-list-grouped .gce-feed {
+	margin-left: 5%;
+	background: #FAFAFA;
+	padding: 10px 5% 20px;
+}
+.gce-month-title, .gce-list-title {
+	padding: 10px 0;
+}
+.gce-feed h2,
+.gce-event-info h2 {
+	font-size: 1.5em;
 }
